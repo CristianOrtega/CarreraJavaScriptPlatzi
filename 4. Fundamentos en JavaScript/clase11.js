@@ -2,25 +2,20 @@ var cristian = {
     nombre: 'Cristian',
     apellido: 'Ortega',
     edad: 27
+};
+
+const MAYORIA_EDAD = 18;
+
+function esMayorDeEdad(persona) {
+    return persona.edad >= MAYORIA_EDAD;
 }
 
-var francisca = {
-    nombre: 'Francisca',
-    apellido: 'Aguilera',
-    edad: 27
-}
-
-
-function imprimirNombreEnMayusculas(persona) {
-    // var nombre = persona.nombre;
-    var { nombre } = persona;
-    console.log(nombre.toUpperCase());
-}
-
-// funcion para imprimir nombre y edad -- Hola me llamo parametro y tengo parametro años
-
-function imprimirNombreYEdad(persona) {
-    var { nombre } = persona;
-    var { edad } = persona;
-    console.log(`Hola me llamo ${nombre} y tengo ${edad} años`);
+function imprimirSiEsMayorDeEdad(persona) {
+    var msg = `${persona.nombre} es `;
+    if (esMayorDeEdad(persona)) {
+        msg += 'mayor de edad.';
+    } else {
+        msg += 'menor de edad.';
+    }
+    return msg;
 }
