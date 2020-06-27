@@ -7,8 +7,8 @@ _Ruta de aprendizaje de platzi, para convertirse en desarrollor con el Stack MER
 * Curso de Prework: Buenas Prácticas y Entorno de Desarrollo 📌
 * Curso de Frontend Developer 
 * Curso Básico de JavaScript 📌
-* Fundamentos de JavaScript
-* Curso de ECMAScript 6+
+* Fundamentos de JavaScript 📌
+* Curso de ECMAScript 6+ 📌
 * Curso de Asincronismo con JavaScript
 
 ### Intermedio
