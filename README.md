@@ -9,7 +9,7 @@ _Ruta de aprendizaje de platzi, para convertirse en desarrollor con el Stack MER
 * Curso Básico de JavaScript 📌
 * Fundamentos de JavaScript 📌
 * Curso de ECMAScript 6+ 📌
-* Curso de Asincronismo con JavaScript
+* Curso de Asincronismo con JavaScript 📌
 
 ### Intermedio
 

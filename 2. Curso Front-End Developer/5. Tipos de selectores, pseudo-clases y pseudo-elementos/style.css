@@ -1,0 +1,32 @@
+/* Asterisco (universal) */
+* {
+  margin: 0;
+}
+
+/* Tipo */
+h1 {
+  color: red;
+}
+
+/* Clase */
+.saludo {
+  font-size: 2em;
+}
+
+/* ID */
+#id {
+  border-radius: 20px;
+}
+
+/* Pseudo-clases */
+p:first-child {
+  color: white;
+}
+
+p:last-child {
+  color: purple;
+}
+
+p:nth-child(2n) {
+  color: red;
+}
